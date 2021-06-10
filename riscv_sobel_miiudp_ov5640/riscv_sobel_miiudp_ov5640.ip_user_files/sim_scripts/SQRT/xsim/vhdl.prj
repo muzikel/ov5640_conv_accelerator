@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../riscv_sobel_miiudp_ov5640.srcs/sources_1/ip/SQRT/sim/SQRT.vhd" \
+
+nosort

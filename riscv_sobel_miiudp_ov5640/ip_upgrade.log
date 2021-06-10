@@ -1,0 +1,16 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
+| Date         : Fri Jun  4 12:58:41 2021
+| Host         : DESKTOP-IRRHKJS running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7a100tcsg324-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'cis_sobel_Trash_Risc_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the conversion of cis_sobel_Trash_Risc_0_0 (xilinx.com:user:Trash_Risc:1.0 (Rev. 1)) to Vivado generation flows.
+

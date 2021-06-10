@@ -1,0 +1,4 @@
+SET_ERROR_CODE 0
+SET_XMDF_PATH ./cis_sobel_mig_7series_0_0_xmdf.tcl
+SET_PARAMETER component_name cis_sobel_mig_7series_0_0
+SET_PARAMETER xml_input_file  ./cis_sobel_mig_7series_0_0/mig.prj

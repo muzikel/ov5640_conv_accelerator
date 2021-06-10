@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ProjectVivado/ov5640_mii_udp2/riscv_sobel_miiudp_ov5640/riscv_sobel_miiudp_ov5640.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="31145fs"></ZoomEndTime>
+      <Cursor1Time time="2000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="257"></NameColumnWidth>
+      <ValueColumnWidth column_width="159"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+      <marker time="653000" label="" />
+      <marker time="703000" label="" />
+   </wave_markers>
+   <wvobject fp_name="cis_sobel_i/fifo_generator_0_dout" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">cis_sobel_i/fifo_generator_0_dout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_0_dout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="cis_sobel_i/fifo_generator_0_empty" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">cis_sobel_i/fifo_generator_0_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_generator_0_empty</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="cis_sobel_i/icb_sobel_0_data_rgb_out" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">cis_sobel_i/icb_sobel_0_data_rgb_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">icb_sobel_0_data_rgb_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="cis_sobel_i/icb_sobel_0_rd_gray_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">cis_sobel_i/icb_sobel_0_rd_gray_en</obj_property>
+      <obj_property name="ObjectShortName">icb_sobel_0_rd_gray_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="cis_sobel_i/icb_sobel_0_wr_rgb_en" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">cis_sobel_i/icb_sobel_0_wr_rgb_en</obj_property>
+      <obj_property name="ObjectShortName">icb_sobel_0_wr_rgb_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

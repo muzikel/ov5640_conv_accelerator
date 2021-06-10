@@ -1,0 +1,8 @@
+vhdl xil_defaultlib  \
+"../../../bd/cis_sobel/ip/cis_sobel_util_ds_buf_0_0/util_ds_buf.vhd" \
+"../../../bd/cis_sobel/ip/cis_sobel_util_ds_buf_0_0/sim/cis_sobel_util_ds_buf_0_0.vhd" \
+"../../../bd/cis_sobel/ip/cis_sobel_axi_smc_0/bd_0/ip/ip_1/sim/bd_0f99_psr_aclk_0.vhd" \
+"../../../bd/cis_sobel/ip/cis_sobel_rst_mig_7series_0_100M_0/sim/cis_sobel_rst_mig_7series_0_100M_0.vhd" \
+"../../../bd/cis_sobel/ip/cis_sobel_Trash_Risc_0_0/sources_1/ip/reset_sys/sim/reset_sys.vhd" \
+
+nosort

@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1622901438">
+  <File Type="PA-TCL" Name="cis_sobel_wrapper.tcl"/>
+  <File Type="REPORTS-TCL" Name="cis_sobel_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="cis_sobel_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="cis_sobel_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="cis_sobel_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="cis_sobel_wrapper.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/imports/fifo2mig_axi/fifo2mig_axi.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/fifo2mig_axi/fifo2mig_axi.v"/>
+        <Attr Name="ImportTime" Val="1603892182"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/rtl/eth/crc32_d4.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/rtl/eth/crc32_d4.v"/>
+        <Attr Name="ImportTime" Val="1622260297"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/eth/ip_receive.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/eth/ip_receive.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/eth/ip_send.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/eth/ip_send.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/eth/udp.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/eth/udp.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/sync_fifo_1024x32b/sync_fifo_1024x32b.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/sync_fifo_1024x32b/sync_fifo_1024x32b.xci"/>
+        <Attr Name="ImportTime" Val="1622275321"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/rtl/img_data_pkt.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/rtl/img_data_pkt.v"/>
+        <Attr Name="ImportTime" Val="1622275813"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/imports/new/i2c_dri.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/imports/new/i2c_dri.v"/>
+        <Attr Name="ImportTime" Val="1621843202"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/imports/new/i2c_ov5640_rgb565_cfg.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/imports/new/i2c_ov5640_rgb565_cfg.v"/>
+        <Attr Name="ImportTime" Val="1621843801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/imports/Desktop/picture_size.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/imports/Desktop/picture_size.v"/>
+        <Attr Name="ImportTime" Val="1622115615"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/imports/new/ov5640_rgb565_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/imports/new/ov5640_rgb565_top.v"/>
+        <Attr Name="ImportTime" Val="1622106062"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/wr_ddr3_fifo/wr_ddr3_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/wr_ddr3_fifo/wr_ddr3_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1622350597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wr_ddr_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/rd_ddr3_fifo/rd_ddr3_fifo.xci">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/rd_ddr3_fifo/rd_ddr3_fifo.xci"/>
+        <Attr Name="ImportTime" Val="1622350597"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rd_ddr_fifo.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/DVP_Capture/DVP_Capture.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/DVP_Capture/DVP_Capture.v"/>
+        <Attr Name="ImportTime" Val="1603892177"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/wr_fifoddr_clr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rd_fifoddr_clr.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/src/clkdivider.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/RISC_BIN/RISC_BIN.srcs/sources_1/imports/src/clkdivider.v"/>
+        <Attr Name="ImportTime" Val="1622179178"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX2IN1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX2IN1_4bit.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel_final/rgbtogray.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sobel_final/rgbtogray.v"/>
+        <Attr Name="ImportTime" Val="1622611821"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel_final/sobel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sobel_final/sobel.v"/>
+        <Attr Name="ImportTime" Val="1622440262"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/sobel_final/icb_sobel.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sobel_final/icb_sobel.v"/>
+        <Attr Name="ImportTime" Val="1622614854"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/cis_sobel/cis_sobel.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/cis_sobel/hdl/cis_sobel_wrapper.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/SQRT/SQRT.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../52_sobel_edge_dector/52_sobel_edge_dector/rtl/vip/VIP_Matrix_Generate_3X3_8Bit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../52_sobel_edge_dector/52_sobel_edge_dector/rtl/vip/VIP_Sobel_Edge_Detector.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../52_sobel_edge_dector/52_sobel_edge_dector/rtl/vip/line_shift_RAM_8bit.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../52_sobel_edge_dector/52_sobel_edge_dector/rtl/vip/rgb2ycbcr.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/vip/Video_Image_Processor.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../52_sobel_edge_dector/52_sobel_edge_dector/rtl/vip/Video_Image_Processor.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bit1to15.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/dcfifo_mixed_widths/dcfifo_mixed_widths.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/dcfifo_mixed_widths/dcfifo_mixed_widths.xci"/>
+        <Attr Name="ImportTime" Val="1622274994"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/clk_wiz_0/clk_wiz_0.xci">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci"/>
+        <Attr Name="ImportTime" Val="1622350376"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Grey.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/rtl/cmos_capture_data.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/rtl/cmos_capture_data.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/ip/mig_7series_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/ip/mig_7series_0/mig_a.prj"/>
+        <Attr Name="ImportTime" Val="1622350658"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="mig_7series_0"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/imports/sdram/sdram_para.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/sources_1/imports/sdram/sdram_para.v"/>
+        <Attr Name="ImportTime" Val="1601276924"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/cis_sobel/ip/cis_sobel_mig_7series_0_0/mig_b.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="cis_sobel_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/cis_sobel/ip/cis_sobel_mig_7series_0_0/mig_a.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="cis_sobel_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="cis_sobel_wrapper"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/new/DDR3.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/constrs_1/imports/new/DDR3.xdc"/>
+        <Attr Name="ImportTime" Val="1622365499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/new/camera_ov5640.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/constrs_1/imports/new/camera_ov5640.xdc"/>
+        <Attr Name="ImportTime" Val="1622365499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/new/ethernet.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/ov5640_mii_udp2/ov5640_mii_udp.srcs/constrs_1/imports/new/ethernet.xdc"/>
+        <Attr Name="ImportTime" Val="1622365499"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/new/TrashCtrl.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="D:/ProjectVivado/RISC_BIN/RISC_BIN.srcs/constrs_1/imports/new/TrashCtrl.xdc"/>
+        <Attr Name="ImportTime" Val="1622182261"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/debug.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/debug.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,12 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX1
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x003A607B    Jun  5 22:24:05 2021    C:/Users/sustech/Desktop/dff/riscv_sobel_miiudp_ov5640/riscv_sobel_miiudp_ov5640.runs/impl_1/cis_sobel_wrapper.bit
+0x00A00000    0x00A02DBF    Jun  9 20:34:54 2021    C:/Users/sustech/Desktop/Nuclei_Dev/Nuclei_Tools/hbird-sdk/application/baremetal/Jichuangsai/jichuangsai.bin

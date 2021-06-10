@@ -1,0 +1,215 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port ddr3 -pg 1 -lvl 16 -x 6370 -y -150 -defaultsOSRD
+preplace port rst_n -pg 1 -lvl 0 -x -520 -y -360 -defaultsOSRD
+preplace port camera_xclk -pg 1 -lvl 16 -x 6370 -y -400 -defaultsOSRD
+preplace port camera_rst_n -pg 1 -lvl 16 -x 6370 -y -380 -defaultsOSRD
+preplace port camera_pwdn -pg 1 -lvl 16 -x 6370 -y -360 -defaultsOSRD
+preplace port camera_scl -pg 1 -lvl 16 -x 6370 -y -340 -defaultsOSRD
+preplace port camera_sda -pg 1 -lvl 16 -x 6370 -y -320 -defaultsOSRD
+preplace port camera_vsync -pg 1 -lvl 0 -x -520 -y -120 -defaultsOSRD
+preplace port camera_href -pg 1 -lvl 0 -x -520 -y -100 -defaultsOSRD
+preplace port eth_tx_clk -pg 1 -lvl 0 -x -520 -y 10 -defaultsOSRD
+preplace port clk -pg 1 -lvl 0 -x -520 -y -300 -defaultsOSRD
+preplace port eth_rx_clk -pg 1 -lvl 0 -x -520 -y 30 -defaultsOSRD
+preplace port eth_ref_clk -pg 1 -lvl 16 -x 6370 -y -270 -defaultsOSRD
+preplace port led -pg 1 -lvl 16 -x 6370 -y 430 -defaultsOSRD
+preplace port qspi0_cs -pg 1 -lvl 16 -x 6370 -y 690 -defaultsOSRD
+preplace port qspi0_sck -pg 1 -lvl 16 -x 6370 -y 470 -defaultsOSRD
+preplace port mcu_TDO -pg 1 -lvl 16 -x 6370 -y 500 -defaultsOSRD
+preplace port mcu_TCK -pg 1 -lvl 16 -x 6370 -y 570 -defaultsOSRD
+preplace port mcu_TDI -pg 1 -lvl 16 -x 6370 -y 590 -defaultsOSRD
+preplace port mcu_TMS -pg 1 -lvl 16 -x 6370 -y 610 -defaultsOSRD
+preplace port pmu_paden -pg 1 -lvl 16 -x 6370 -y 630 -defaultsOSRD
+preplace port pmu_padrst -pg 1 -lvl 16 -x 6370 -y 650 -defaultsOSRD
+preplace port mcu_wakeup -pg 1 -lvl 16 -x 6370 -y 670 -defaultsOSRD
+preplace port Sel -pg 1 -lvl 0 -x -520 -y 70 -defaultsOSRD
+preplace port eth_tx_en -pg 1 -lvl 16 -x 6370 -y 50 -defaultsOSRD
+preplace port eth_rst_n -pg 1 -lvl 16 -x 6370 -y 190 -defaultsOSRD
+preplace portBus camera_data -pg 1 -lvl 0 -x -520 -y -80 -defaultsOSRD
+preplace portBus camera_pclk -pg 1 -lvl 0 -x -520 -y -140 -defaultsOSRD
+preplace portBus eth_mdc -pg 1 -lvl 16 -x 6370 -y -510 -defaultsOSRD
+preplace portBus eth_col -pg 1 -lvl 16 -x 6370 -y -430 -defaultsOSRD
+preplace portBus eth_crs -pg 1 -lvl 16 -x 6370 -y -620 -defaultsOSRD
+preplace portBus qspi0_dq -pg 1 -lvl 16 -x 6370 -y 450 -defaultsOSRD
+preplace portBus gpioA -pg 1 -lvl 16 -x 6370 -y 550 -defaultsOSRD
+preplace portBus gpioB -pg 1 -lvl 16 -x 6370 -y 530 -defaultsOSRD
+preplace portBus eth_tx_data -pg 1 -lvl 16 -x 6370 -y 390 -defaultsOSRD
+preplace inst fifo2mig_axi_0 -pg 1 -lvl 11 -x 4320 -y -350 -defaultsOSRD
+preplace inst img_data_pkt_0 -pg 1 -lvl 12 -x 4810 -y 190 -defaultsOSRD
+preplace inst ov5640_rgb565_top_0 -pg 1 -lvl 8 -x 2650 -y -470 -defaultsOSRD
+preplace inst wr_ddr_fifo_0 -pg 1 -lvl 9 -x 3100 -y -430 -defaultsOSRD
+preplace inst rd_ddr_fifo_0 -pg 1 -lvl 9 -x 3100 -y -210 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 13 -x 5200 -y -110 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 5 -x 1150 -y -370 -defaultsOSRD
+preplace inst util_ds_buf_0 -pg 1 -lvl 5 -x 1150 -y -200 -defaultsOSRD
+preplace inst DVP_Capture_0 -pg 1 -lvl 8 -x 2650 -y -240 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 5 -x 1150 -y 120 -defaultsOSRD
+preplace inst util_vector_logic_1 -pg 1 -lvl 4 -x 820 -y 130 -defaultsOSRD
+preplace inst util_vector_logic_2 -pg 1 -lvl 5 -x 1150 -y 240 -defaultsOSRD
+preplace inst util_vector_logic_3 -pg 1 -lvl 4 -x 820 -y 250 -defaultsOSRD
+preplace inst util_vector_logic_4 -pg 1 -lvl 10 -x 3570 -y 80 -defaultsOSRD
+preplace inst util_vector_logic_5 -pg 1 -lvl 10 -x 3570 -y -60 -defaultsOSRD
+preplace inst util_vector_logic_6 -pg 1 -lvl 8 -x 2650 -y 10 -defaultsOSRD
+preplace inst wr_fifoddr_clr_0 -pg 1 -lvl 9 -x 3100 -y 30 -defaultsOSRD
+preplace inst rd_fifoddr_clr_0 -pg 1 -lvl 9 -x 3100 -y 150 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 2 -x -40 -y -530 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -x -40 -y -430 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 2 -x -40 -y -630 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 12 -x 4810 -y -110 -defaultsOSRD
+preplace inst rst_mig_7series_0_100M -pg 1 -lvl 12 -x 4810 -y -410 -defaultsOSRD
+preplace inst fifo2mig_axi_1 -pg 1 -lvl 11 -x 4320 -y 130 -defaultsOSRD
+preplace inst clkdivider_0 -pg 1 -lvl 1 -x -278 -y 630 -defaultsOSRD
+preplace inst wr_ddr_fifo_1 -pg 1 -lvl 9 -x 3100 -y 340 -defaultsOSRD
+preplace inst rd_ddr_fifo_2 -pg 1 -lvl 9 -x 3100 -y 560 -defaultsOSRD
+preplace inst util_vector_logic_7 -pg 1 -lvl 10 -x 3570 -y 500 -defaultsOSRD
+preplace inst util_vector_logic_8 -pg 1 -lvl 10 -x 3570 -y 380 -defaultsOSRD
+preplace inst img_data_pkt_1 -pg 1 -lvl 12 -x 4810 -y 460 -defaultsOSRD
+preplace inst MUX2IN1_0 -pg 1 -lvl 15 -x 6166 -y 40 -defaultsOSRD
+preplace inst MUX2IN1_1 -pg 1 -lvl 15 -x 6166 -y 180 -defaultsOSRD
+preplace inst MUX2IN1_4bit_0 -pg 1 -lvl 15 -x 6166 -y 320 -defaultsOSRD
+preplace inst fifo_generator_0 -pg 1 -lvl 6 -x 1640 -y 490 -defaultsOSRD
+preplace inst Trash_Risc_0 -pg 1 -lvl 3 -x 300 -y 620 -defaultsOSRD
+preplace inst udp_0 -pg 1 -lvl 14 -x 5726 -y 70 -defaultsOSRD
+preplace inst udp_1 -pg 1 -lvl 14 -x 5726 -y 330 -defaultsOSRD
+preplace inst icb_sobel_0 -pg 1 -lvl 7 -x 2180 -y 230 -defaultsOSRD
+preplace netloc wr_ddr_fifo_0_dout 1 9 2 N -490 3870
+preplace netloc clk_wiz_0_clk_100m 1 5 3 1310 -500 N -500 N
+preplace netloc rst_n_1 1 0 14 -490 -110 N -110 50 -120 N -120 1000 -120 1390J -40 1980 -40 2440 -650 N -650 N -650 N -650 N -650 5010 10 5420
+preplace netloc clk_wiz_0_clk_24m 1 5 3 1330 -460 N -460 N
+preplace netloc clk_wiz_0_locked 1 2 11 120 130 650 -20 N -20 1340 -440 N -440 2420 -680 N -680 N -680 N -680 N -680 5030
+preplace netloc ov5640_rgb565_top_0_cam_xclk 1 8 8 2800J -640 NJ -640 N -640 NJ -640 NJ -640 N -640 N -640 6340
+preplace netloc ov5640_rgb565_top_0_cam_rst_n 1 8 8 2850J -580 NJ -580 N -580 NJ -580 NJ -580 N -580 N -580 6280
+preplace netloc ov5640_rgb565_top_0_cam_pwdn 1 8 8 2830J -590 NJ -590 N -590 NJ -590 NJ -590 N -590 N -590 6290
+preplace netloc ov5640_rgb565_top_0_cam_scl 1 8 8 2800J -90 3280J -150 N -150 4560J -240 NJ -240 N -240 N -240 6280
+preplace netloc Net 1 8 8 2810J -730 NJ -730 N -730 NJ -730 NJ -730 N -730 N -730 6330
+preplace netloc util_ds_buf_0_BUFG_O 1 5 4 1400 -200 1940 -260 2430 -360 2820
+preplace netloc camera_vsync_1 1 0 8 NJ -120 N -120 40 -130 N -130 N -130 1350 -240 N -240 N
+preplace netloc camera_href_1 1 0 8 NJ -100 N -100 N -100 550 -60 N -60 N -60 N -60 2410
+preplace netloc camera_data_1 1 0 8 NJ -80 N -80 N -80 480 -70 N -70 N -70 N -70 2420
+preplace netloc camera_pclk_1 1 0 5 N -140 N -140 N -140 N -140 970
+preplace netloc DVP_Capture_0_DataValid 1 6 3 1990 -120 N -120 2860
+preplace netloc DVP_Capture_0_DataPixel 1 6 3 2000 -100 N -100 2850
+preplace netloc mig_7series_0_ui_clk 1 8 6 2920 -600 NJ -600 3790 -120 4590J -20 5040 -10 5350
+preplace netloc fifo2mig_axi_0_wr_fifo_rdreq 1 8 4 2940 -630 NJ -630 N -630 4510
+preplace netloc wr_ddr_fifo_0_empty 1 9 2 N -450 3860
+preplace netloc wr_ddr_fifo_0_rd_data_count 1 9 2 N -430 3830
+preplace netloc fifo2mig_axi_0_rd_fifo_wrreq 1 8 4 2950 -550 NJ -550 N -550 4500
+preplace netloc fifo2mig_axi_0_rd_fifo_wrdata 1 8 4 2910 -660 NJ -660 N -660 4530
+preplace netloc rd_ddr_fifo_0_full 1 9 2 3240 -350 N
+preplace netloc rd_ddr_fifo_0_wr_data_count 1 9 2 3250 -330 N
+preplace netloc eth_tx_clk_1 1 0 14 NJ 10 N 10 60 -10 N -10 N -10 1370J -50 N -50 2430 -60 2890 -60 3380 10 3760 -50 4530 70 N 70 5410
+preplace netloc img_data_pkt_0_img_req 1 8 5 2930 -610 NJ -610 N -610 NJ -610 4990
+preplace netloc rd_ddr_fifo_0_dout 1 9 3 NJ -270 3780 -130 4580
+preplace netloc clk_1 1 0 5 -500 -150 N -150 N -150 N -150 990
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 4 10 990 320 1390 320 1820 510 N 510 2870 -70 3250 -170 3830 -140 4550J -200 5020 -210 5350
+preplace netloc mig_7series_0_init_calib_complete 1 10 4 3870 -90 4570J -10 5000 0 5340
+preplace netloc mig_7series_0_mmcm_locked 1 10 4 3860 -170 4540J -210 5000 -220 5360
+preplace netloc clk_wiz_0_clk_200m 1 5 8 1320J -680 N -680 2380 -690 NJ -690 NJ -690 N -690 N -690 5040
+preplace netloc eth_rx_clk_1 1 0 14 -470J -160 -170 -690 N -690 N -690 1000 -670 NJ -670 N -670 N -670 NJ -670 NJ -670 N -670 NJ -670 N -670 5400
+preplace netloc util_vector_logic_0_Res 1 5 3 1360 -280 N -280 N
+preplace netloc util_vector_logic_1_Res 1 4 1 N 130
+preplace netloc util_vector_logic_3_Res 1 4 1 N 250
+preplace netloc ov5640_rgb565_top_0_sys_init_done 1 3 6 660 40 NJ 40 1390J -10 N -10 2450 -110 2810
+preplace netloc util_vector_logic_2_Res 1 5 4 1390 260 1910 470 2400 290 2840J
+preplace netloc wr_ddr_fifo_0_wr_rst_busy 1 9 1 3410 -390n
+preplace netloc wr_ddr_fifo_0_rd_rst_busy 1 9 1 3400 -370n
+preplace netloc rd_ddr_fifo_0_wr_rst_busy 1 9 1 3240 -170n
+preplace netloc rd_ddr_fifo_0_rd_rst_busy 1 9 1 3270 -150n
+preplace netloc util_vector_logic_5_Res 1 10 1 3720 -390n
+preplace netloc util_vector_logic_4_Res 1 10 1 3730 -310n
+preplace netloc util_vector_logic_6_Res 1 8 4 2880 -40 3320J 160 3740J -80 4550J
+preplace netloc wr_fifoddr_clr_0_wr_addr_clr 1 9 2 3310 -130 3770J
+preplace netloc rd_fifoddr_clr_0_rd_addr_clr 1 9 2 3290 -140 3820J
+preplace netloc xlconstant_0_dout 1 2 14 NJ -530 N -530 NJ -530 NJ -530 N -530 2410 -580 2840J -570 NJ -570 NJ -570 NJ -570 NJ -570 N -570 N -570 6320
+preplace netloc xlconstant_1_dout 1 2 14 NJ -430 610 -160 980J -140 NJ -140 N -140 2430 -80 NJ -80 3260J -160 NJ -160 4570J -230 5000J -250 N -250 N -250 6270
+preplace netloc xlconstant_2_dout 1 2 14 NJ -630 N -630 NJ -630 NJ -630 N -630 2430 -590 2820J -560 NJ -560 3870J -600 NJ -600 NJ -600 N -600 N -600 6280
+preplace netloc clk_wiz_0_clk_25m 1 5 11 1300 -690 N -690 2370 -700 NJ -700 NJ -700 NJ -700 NJ -700 NJ -700 N -700 NJ -700 6300
+preplace netloc rst_mig_7series_0_100M_peripheral_aresetn 1 11 2 4620 -220 4980
+preplace netloc clk_wiz_0_clk_16m 1 2 4 100 -50 N -50 N -50 1330
+preplace netloc clkdivider_0_clk_out 1 1 2 -170 570 NJ
+preplace netloc clk_wiz_0_clk_8388m 1 0 6 -460 -40 NJ -40 NJ -40 NJ -40 NJ -40 1310
+preplace netloc Trash_Risc_0_led 1 3 13 580J 700 NJ 700 NJ 700 1970 730 N 730 NJ 730 3310J 270 3780J 340 NJ 340 NJ 340 5380J 480 5940 430 N
+preplace netloc Trash_Risc_0_qspi0_cs 1 3 13 660 600 NJ 600 1390J 730 1920 760 2390 790 2870J 810 NJ 810 NJ 810 NJ 810 NJ 810 NJ 810 NJ 810 6340
+preplace netloc Trash_Risc_0_qspi0_sck 1 3 13 600 330 NJ 330 1410J 290 1840 540 2440 660 2810J 750 3320J 260 3790J 350 NJ 350 NJ 350 5340J 490 NJ 490 6270
+preplace netloc Net1 1 3 13 590 310 NJ 310 NJ 310 1830 480 2410 500 2830J 770 NJ 770 NJ 770 NJ 770 NJ 770 NJ 770 NJ 770 6290
+preplace netloc Net2 1 3 13 650 610 NJ 610 1420J 710 1950 740 2440 760 NJ 760 3340J 280 3810J 310 NJ 310 NJ 310 5370J 520 NJ 520 6270
+preplace netloc Net3 1 3 13 640 620 NJ 620 1310J 740 1830 770 2360 800 NJ 800 3380J 310 3750J 320 NJ 320 NJ 320 5360J 510 NJ 510 6280
+preplace netloc Net4 1 3 13 620 630 NJ 630 1350J 720 1930 750 2420 780 NJ 780 3360J 290 3770J 330 NJ 330 NJ 330 5350J 500 NJ 500 N
+preplace netloc Net5 1 3 13 600 640 NJ 640 NJ 640 N 640 2420 670 2800J 740 3400J 670 NJ 670 NJ 670 NJ 670 NJ 670 NJ 670 6270
+preplace netloc Net6 1 3 13 520 680 NJ 680 1460J 660 N 660 2370 690 NJ 690 3370J 680 NJ 680 NJ 680 NJ 680 NJ 680 NJ 680 6280
+preplace netloc Net7 1 3 13 530 650 NJ 650 1370J 670 2000 700 N 700 NJ 700 3390J 690 NJ 690 NJ 690 NJ 690 NJ 690 NJ 690 6300
+preplace netloc Net8 1 3 13 510 660 NJ 660 1320J 680 1990 710 N 710 NJ 710 3410J 700 NJ 700 NJ 700 NJ 700 NJ 700 NJ 700 6310
+preplace netloc Net9 1 3 13 500 670 NJ 670 1450J 650 N 650 2400 680 NJ 680 3250J 710 NJ 710 NJ 710 NJ 710 NJ 710 NJ 710 6320
+preplace netloc Net10 1 3 13 490 690 NJ 690 NJ 690 1980 720 N 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 NJ 720 6330
+preplace netloc wr_ddr_fifo_1_rd_data_count 1 9 2 3250 190 3760J
+preplace netloc wr_ddr_fifo_1_dout 1 9 2 3240 180 3770J
+preplace netloc rd_ddr_fifo_2_wr_data_count 1 9 2 3270 170 3810J
+preplace netloc fifo2mig_axi_1_rd_fifo_wrdata 1 8 4 2950 220 NJ 220 3780J -60 4500
+preplace netloc wr_ddr_fifo_1_wr_rst_busy 1 9 1 3300 370n
+preplace netloc wr_ddr_fifo_1_rd_rst_busy 1 9 1 3300 390n
+preplace netloc util_vector_logic_8_Res 1 10 1 3840 90n
+preplace netloc rd_ddr_fifo_2_wr_rst_busy 1 9 1 3330 490n
+preplace netloc rd_ddr_fifo_2_rd_rst_busy 1 9 1 3350 510n
+preplace netloc util_vector_logic_7_Res 1 10 1 3850 170n
+preplace netloc wr_ddr_fifo_1_empty 1 9 2 3260 200 3800J
+preplace netloc rd_ddr_fifo_2_full 1 9 2 3280 210 3820J
+preplace netloc fifo2mig_axi_1_wr_fifo_rdreq 1 8 4 2900 -620 NJ -620 NJ -620 4520
+preplace netloc fifo2mig_axi_1_rd_fifo_wrreq 1 8 4 2940 -50 3340J 150 3750J -70 4510
+preplace netloc img_data_pkt_1_img_req 1 8 5 2950 790 NJ 790 NJ 790 NJ 790 4980
+preplace netloc rd_ddr_fifo_2_dout 1 9 3 3290 300 3730J 460 NJ
+preplace netloc udp_0_tx_req 1 11 4 4610 20 NJ 20 5360J -80 5940
+preplace netloc udp_0_tx_done 1 11 4 4620 30 NJ 30 5370J -70 5920
+preplace netloc img_data_pkt_0_udp_tx_start_en 1 12 2 NJ 180 5340
+preplace netloc img_data_pkt_0_udp_tx_data 1 12 2 NJ 200 5350
+preplace netloc img_data_pkt_0_udp_tx_byte_num 1 12 2 NJ 220 5360
+preplace netloc img_data_pkt_1_udp_tx_start_en 1 12 2 NJ 450 5400
+preplace netloc img_data_pkt_1_udp_tx_data 1 12 2 4990J 460 5420
+preplace netloc img_data_pkt_1_udp_tx_byte_num 1 12 2 NJ 490 5330
+preplace netloc udp_1_tx_req 1 11 4 4620 560 NJ 560 NJ 560 5900
+preplace netloc udp_1_tx_done 1 11 4 4610 360 5020J 470 NJ 470 5910
+preplace netloc udp_0_eth_tx_en 1 14 1 5900 20n
+preplace netloc udp_1_eth_tx_en 1 14 1 5920 40n
+preplace netloc Sel_1 1 0 15 -480J -700 NJ -700 NJ -700 NJ -700 NJ -700 NJ -700 N -700 2360 -710 NJ -710 NJ -710 NJ -710 NJ -710 NJ -710 NJ -710 5950
+preplace netloc MUX2IN1_0_O 1 15 1 6300 40n
+preplace netloc udp_1_eth_rst_n 1 14 1 5960 180n
+preplace netloc udp_0_eth_rst_n 1 14 1 5930 150n
+preplace netloc MUX2IN1_1_O 1 15 1 6300 180n
+preplace netloc MUX2IN1_4bit_0_O 1 15 1 6300 320n
+preplace netloc udp_1_eth_tx_data 1 14 1 5970 320n
+preplace netloc udp_0_eth_tx_data 1 14 1 5940 130n
+preplace netloc Trash_Risc_0_hfclk 1 3 4 480 50 NJ 50 NJ 50 1860
+preplace netloc icb_sobel_0_data_gray_out 1 5 3 1430 280 1920J 440 2370
+preplace netloc icb_sobel_0_wr_gray_en 1 5 3 1440 300 1850J 460 2380
+preplace netloc fifo_generator_0_dout 1 5 2 1460 340 1870
+preplace netloc fifo_generator_0_empty 1 5 2 1450 330 1880J
+preplace netloc icb_sobel_0_rd_gray_en 1 5 3 1420 270 1930J 450 2360
+preplace netloc icb_sobel_0_data_rgb_out 1 7 2 NJ 300 2830
+preplace netloc icb_sobel_0_wr_rgb_en 1 7 2 NJ 320 2810
+preplace netloc clk_wiz_0_clk_50m 1 5 4 1380J 250 1890 430 2430 310 N
+preplace netloc Trash_Risc_0_PE_icb_cmd_valid 1 3 4 570 -90 NJ -90 NJ -90 1950J
+preplace netloc Trash_Risc_0_PE_icb_cmd_read 1 3 4 560 -100 NJ -100 NJ -100 1960J
+preplace netloc Trash_Risc_0_PE_icb_cmd_addr 1 3 4 540 -110 NJ -110 NJ -110 1970J
+preplace netloc Trash_Risc_0_PE_icb_cmd_wdata 1 3 4 610 -80 NJ -80 NJ -80 1840J
+preplace netloc Trash_Risc_0_PE_icb_cmd_wmask 1 3 4 630 -30 NJ -30 NJ -30 1830J
+preplace netloc Trash_Risc_0_PE_icb_cmd_size 1 3 4 650 750 NJ 750 NJ 750 1860J
+preplace netloc Trash_Risc_0_PE_icb_rsp_ready 1 3 4 660 760 NJ 760 NJ 760 1900J
+preplace netloc icb_sobel_0_i_icb_cmd_ready 1 2 6 90 0 NJ 0 NJ 0 NJ 0 NJ 0 2370
+preplace netloc icb_sobel_0_i_icb_rsp_valid 1 2 6 110 30 NJ 30 NJ 30 NJ 30 NJ 30 2360
+preplace netloc icb_sobel_0_i_icb_rsp_err 1 2 6 70 10 NJ 10 NJ 10 NJ 10 NJ 10 2390
+preplace netloc icb_sobel_0_i_icb_rsp_rdata 1 2 6 80 20 NJ 20 NJ 20 NJ 20 NJ 20 2380
+preplace netloc Net11 1 7 7 2400 -720 N -720 N -720 N -720 N -720 N -720 5390
+preplace netloc fifo2mig_axi_0_m_axi 1 11 1 4580 -380n
+preplace netloc fifo2mig_axi_1_m_axi 1 11 1 4600 -120n
+preplace netloc axi_smc_M00_AXI 1 12 1 5020J -140n
+preplace netloc mig_7series_0_DDR3 1 13 3 N -150 N -150 N
+levelinfo -pg 1 -520 -278 -40 300 820 1150 1640 2180 2650 3100 3570 4320 4810 5200 5726 6166 6370
+pagesize -pg 1 -db -bbox -sgen -680 -1150 6530 1600
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_clkrst_cnt":"2"
+}

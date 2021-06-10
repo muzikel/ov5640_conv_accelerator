@@ -1,0 +1,9 @@
+srcscan starts
+INFO: analyzing module cis_sobel_wr_ddr_fifo_0_1 (VERI-9002)
+INFO: analyzing module wr_ddr_fifo (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:cis_sobel_wr_ddr_fifo_0_1
+END of tops
+d:/ProjectVivado/ov5640_mii_udp2/riscv_sobel_miiudp_ov5640/riscv_sobel_miiudp_ov5640.srcs/sources_1/bd/cis_sobel/ip/cis_sobel_wr_ddr_fifo_0_1/sim/cis_sobel_wr_ddr_fifo_0_1.v(57): INFO: compiling module 'cis_sobel_wr_ddr_fifo_0_1_default' (VERI-1018)
+D:/ProjectVivado/ov5640_mii_udp2/riscv_sobel_miiudp_ov5640/riscv_sobel_miiudp_ov5640.srcs/sources_1/new/wr_ddr_fifo.v(39): WARNING: Module <wr_ddr3_fifo> not found while processing module instance <wr_ddr3_fifo> (VERI-1063)
+srcscan exits with return value 0

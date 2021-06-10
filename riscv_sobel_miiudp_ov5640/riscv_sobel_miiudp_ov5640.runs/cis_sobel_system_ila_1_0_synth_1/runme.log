@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log cis_sobel_system_ila_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source cis_sobel_system_ila_1_0.tcl
+
